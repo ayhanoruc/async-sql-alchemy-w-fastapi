@@ -3,14 +3,6 @@ from sqlalchemy.orm import mapped_column, Mapped
 from sqlalchemy import Text
 from datetime import datetime
 
-"""
-class Note:
-    id str
-    title str
-    content str
-    created_at datetime
-
-"""
 
 
 class Note(Base):
